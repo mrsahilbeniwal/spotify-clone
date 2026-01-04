@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Spomtify</title>
+	<link rel="stylesheet" type="text/css" href="page-style.css">
+	<script src="https://kit.fontawesome.com/aa9a150395.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+		<span id="site-name">
+			<i class="fa-brands fa-spotify"></i>
+			Spomtify
+		</span>
+		<span id="page-name">Favourites</span>
+		<span id="search-bar">
+			<form>
+			<button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+			<input type="text" name="search" placeholder="Search">
+			<button id="microphone-btn"><i class="fa-solid fa-microphone"></i></button>
+			</form>
+		</span>
+		<span id="bell-icon"><i class="fa-solid fa-bell"></i></span>
+		<span id="user-id">
+			<div id="img-container">
+				<img src="static\MSD.png">
+			</div>
+		</span>
+	</header>
+	<main>
+		<section id="content">
+			<section id="main-box-list">
+				<div class="main-box">
+					<img src="static\page\Screenshot (291).png" id="rock-classics">
+				</div>
+				<div class="main-box">
+					<img src="static\page\Screenshot (290).png" id="happy-mix">
+				</div>
+				<div class="main-box">
+					<img src="static\page\Screenshot (292).png" id="rap-91">
+				</div>
+			</section>
+			<section id="latest-release">
+				<section id="latest-release-head">Latest Release</section>
+				<section id="latest-release-list">
+					<div class="latest-release-box">
+					
+						<a class="latest-release-img" href="#foot">
+							<img src="static\page\download (2).jpeg">
+							<span class="play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+						</a>
+						<span class="latest-release-bio">
+							<div class="latest-release-song-name">Baller</div>
+							<div class="latest-release-song-date">Shubh/Ikky</div>
+						</span>
+						<span class="latest-release-ran">
+							<div class="dropdown">
+								<div class="dropbtn">
+									<i class="fa-solid fa-ellipsis"></i>
+								</div>
+							<div class="dropdown-content">
+								<ul>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+										<span class="dropdown-content-text">Play Now</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-plus"></i></span>
+										<span class="dropdown-content-text">Add to Queue</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-list"></i></span>
+										<span class="dropdown-content-text">Add to Favourites</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-circle-info"></i></span>
+										<span class="dropdown-content-text">Get Info</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+							<div class="latest-release-time">2:28</div>
+						</span>
+					</div>
+					<div class="latest-release-box">
+						<a class="latest-release-img" href="#foot">
+							<img src="static\page\download (2).jpeg">
+							<span class="play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+						</a>
+						<span class="latest-release-bio">
+							<div class="latest-release-song-name">Baller</div>
+							<div class="latest-release-song-date">Shubh/Ikky</div>
+						</span>
+						<span class="latest-release-ran">
+							<div class="dropdown">
+								<div class="dropbtn">
+									<i class="fa-solid fa-ellipsis"></i>
+								</div>
+							<div class="dropdown-content">
+								<ul>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+										<span class="dropdown-content-text">Play Now</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-plus"></i></span>
+										<span class="dropdown-content-text">Add to Queue</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-list"></i></span>
+										<span class="dropdown-content-text">Add to Favourites</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-circle-info"></i></span>
+										<span class="dropdown-content-text">Get Info</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+							<div class="latest-release-time">2:28</div>
+						</span>
+					</div>
+					<div class="latest-release-box">
+						<a class="latest-release-img" href="#foot">
+							<img src="static\page\download (2).jpeg">
+							<span class="play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+						</a>
+						<span class="latest-release-bio">
+							<div class="latest-release-song-name">Baller</div>
+							<div class="latest-release-song-date">Shubh/Ikky</div>
+						</span>
+						<span class="latest-release-ran">
+							<div class="dropdown">
+								<div class="dropbtn">
+									<i class="fa-solid fa-ellipsis"></i>
+								</div>
+							<div class="dropdown-content">
+								<ul>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+										<span class="dropdown-content-text">Play Now</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-plus"></i></span>
+										<span class="dropdown-content-text">Add to Queue</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-list"></i></span>
+										<span class="dropdown-content-text">Add to Favourites</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-circle-info"></i></span>
+										<span class="dropdown-content-text">Get Info</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+							<div class="latest-release-time">2:28</div>
+						</span>
+					</div>
+					<div class="latest-release-box">
+						<a class="latest-release-img" href="#foot">
+							<img src="static\page\download (2).jpeg">
+							<span class="play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+						</a>
+						<span class="latest-release-bio">
+							<div class="latest-release-song-name">Baller</div>
+							<div class="latest-release-song-date">Shubh/Ikky</div>
+						</span>
+						<span class="latest-release-ran">
+							<div class="dropdown">
+								<div class="dropbtn">
+									<i class="fa-solid fa-ellipsis"></i>
+								</div>
+							<div class="dropdown-content">
+								<ul>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+										<span class="dropdown-content-text">Play Now</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-plus"></i></span>
+										<span class="dropdown-content-text">Add to Queue</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-list"></i></span>
+										<span class="dropdown-content-text">Add to Favourites</span>
+									</li>
+									<li>
+										<span class="dropdown-content-icon"><i class="fa-solid fa-circle-info"></i></span>
+										<span class="dropdown-content-text">Get Info</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+							<div class="latest-release-time">2:28</div>
+						</span>
+					</div>
+				</section>
+			</section>
+			<section id="popular-artists">
+				<section id="popular-artists-head">Popular Artists</section>
+				<section id="popular-artists-list">
+					<a class="popular-artists-box" href="main.html">
+						<div class="popular-artists-img">
+							<img src="static\unnamed.jpg">
+						</div>
+						<div class="popular-artists-name">Kr$na</div>
+						<span class="popular-play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+					</a>
+					<a class="popular-artists-box" href="main.html">
+						<div class="popular-artists-img">
+							<img src="static\page\Screenshot (290).png">
+						</div>
+						<div class="popular-artists-name">Harry Styles</div>
+						<span class="popular-play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+					</a>
+					<a class="popular-artists-box" href="main.html">
+						<div class="popular-artists-img">
+							<img src="static\page\download.jpeg">
+						</div>
+						<div class="popular-artists-name">Camila Cabello</div>
+						<span class="popular-play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+					</a>
+					<a class="popular-artists-box" href="main.html">
+						<div class="popular-artists-img">
+							<img src="static\page\ab6761610000e5eb46e7a06fa6dfefaed6a3f0db.jpeg">
+						</div>
+						<div class="popular-artists-name">Shawn Mendes</div>
+						<span class="popular-play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+					</a>
+					<a class="popular-artists-box" href="main.html">
+						<div class="popular-artists-img">
+							<img src="static\page\unnamed.jpg">
+						</div>
+						<div class="popular-artists-name">Dua Lipa</div>
+						<span class="popular-play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+					</a>
+					<a class="popular-artists-box" href="main.html">
+						<div class="popular-artists-img">
+							<img src="static\page\ab6761610000e5eb276369b9195d6f67470fd51a.jpeg">
+						</div>
+						<div class="popular-artists-name">Talha Anjum</div>
+						<span class="popular-play-icon"><i class="fa-sharp fa-solid fa-play"></i></span>
+					</a>
+				</section>
+			</section>
+			<section id="stations-list">
+				<section id="squares">
+					<div id="small-rec"></div>
+					<div id="med-rec"></div>
+					<div id="large-rec">
+						<img src="static\page\page-latest\music-album (1).png">
+						<span id="text-station">Stations</span>
+					</div>
+				</section>
+				<section id="circles">
+					<div class="circle-img">
+						<img src="static\page\station\AESTHETIC WALLPAPERS _ EDITS _ TIKTOK _ WALLPAPERS PHONE _ AESTHETIC _ By @livtorresec.jpeg" id="chill">
+						<span class="circle-img-text">Chill</span>
+					</div>
+					<div class="circle-img">
+						<img src="static\page\station\27 Of History's Most Iconic Rock Stars As Youngsters.jpeg" id="rock">
+						<span class="circle-img-text">Rock</span>
+					</div>
+					<div class="circle-img">
+						<img src="static\page\station\hi.jpeg" id="love">
+						<span class="circle-img-text">Love</span>
+					</div>
+					<div class="circle-img">
+						<img src="static\page\station\unnamed.jpg" id="pop">
+						<span class="circle-img-text">Pop</span>
+					</div>
+					<div class="circle-img">
+						<img src="static\page\station\vinyl shit.jpeg" id="retro">
+						<span class="circle-img-text">Retro</span>
+					</div>
+					<div class="circle-img">
+						<img src="static\page\station\Anyone have any video wallpapers that are anime or lofi related or just have a chill vibe to it, something like this_.jpeg" id="drive">
+						<span class="circle-img-text">Drive</span>
+					</div>
+				</section>
+			</section>
+			<section id="playlist-box-list">
+				<div class="playlist-box-content">
+					<img src="static\page\page-latest\download (2).jpeg" id="workout" class="playlist-box-img">
+					<span class="img-text">Workout</span>
+				</div>
+				<div class="playlist-box-content">
+					<img src="static\page\page-latest\Gold and Grey Hotel Van Zandt Wedding in Austin, Texas _ Junebug Weddings.jpeg" id="wedding" class="playlist-box-img">
+					<span class="img-text">Wedding</span>
+				</div>
+				<div class="playlist-box-content">
+					<img src="static\page\page-latest\download (1).jpeg" id="solo-trip" class="playlist-box-img">
+					<span class="img-text">Solo Trip</span>
+				</div>
+			</section>
+			<section class="latest-song-row">
+				<section class="latest-song-head">Latest English</section>
+				<section class="latest-song-list">
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\One_Direction_-_Night_Changes_Single_Cover.png">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">Night Changes</div>
+							<div class="latest-song-date">One Direction</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\ab67616d0000b27353a2e11c1bde700722fecd2e.jpeg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">Middle of Night</div>
+							<div class="latest-song-date">Elle Duhe</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\Calvin-Harris-Dua-Lipa-One-Kiss-video.jpg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">One Kiss</div>
+							<div class="latest-song-date">Dua Lipa</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\ab67616d0000b27397e971f3e53475091dc8d707.jpeg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">Dandelions</div>
+							<div class="latest-song-date">Ruth B.</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\ab67616d0000b273b46f74097655d7f353caab14.jpeg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">As It Was</div>
+							<div class="latest-song-date">Harry Styles</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\charlie-puth-attention-868x680.width-800.png">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">Attention</div>
+							<div class="latest-song-date">Charlie Puth</div>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="latest-song-row" id="margin-scroll">
+				<section class="latest-song-head">Latest Punjabi</section>
+				<section class="latest-song-list">
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\Daru-Badnaam-Punjabi-2016-20191010170948-500x500.jpg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">Daru Badnaam</div>
+							<div class="latest-song-date">Param/Kamal</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\ba2155f498b3017bb51c34e81a80dde8.500x500x1.jpg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">Priceless</div>
+							<div class="latest-song-date">Bhalwaan</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\maxresdefault.jpg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">No Love</div>
+							<div class="latest-song-date">Shubh</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\artworks-gupvlu3rEFIOGDIM-Wy8iIw-t500x500.jpg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">Insane</div>
+							<div class="latest-song-date">AP Dhillon</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\International-Villager-Punjabi-2011-20220722144441-500x500.jpg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">Brown Rang</div>
+							<div class="latest-song-date">Yo Yo Honey Singh</div>
+						</div>
+					</div>
+					<div class="latest-song-box">
+						<div class="latest-song-img">
+							<img src="static\page\page-latest\295-Sidhu-Moose-Wala--English-2021-20210922022502-500x500.jpg">
+						</div>
+						<div class="latest-song-bio">
+							<div class="latest-song-name">295</div>
+							<div class="latest-song-date">Sidhu Moosewala</div>
+						</div>
+					</div>
+				</section>
+			</section>
+		</section>
+		<section id="aside">
+			<section id="aside-head">
+				<span id="aside-head-queue">Queue</span>
+				<div class="dropdown-2">
+    			<span id="aside-head-dropdown">Queue<i class="fa-solid fa-angle-down"></i></span>
+    			<div class="dropdown-content-2">
+    				<ul>
+    					<li>Playlists</li>
+    					<li>Favourite Songs</li>
+    				</ul>
+    			</div>
+    		</div>
+			</section>
+			<section id="r-p-list">
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">01</span>
+    			<span class="r-p-song-img">
+    				<img src="static\maxresdefault.jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Say My Name</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">02</span>
+    			<span class="r-p-song-img">
+    				<img src="static\maxresdefault (1).jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Woofer</div>
+    				<div class="r-p-singer-name">Deep Kalsi/Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">03</span>
+    			<span class="r-p-song-img">
+    				<img src="static\download (1).jpeg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Kar Diya</div>
+    				<div class="r-p-singer-name">Fotty Seven</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">04</span>
+    			<span class="r-p-song-img">
+    				<img src="static\maxresdefault (2).jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Kar Lenge Bhai</div>
+    				<div class="r-p-singer-name">Fotty Seven/Raftaar/Karma</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">05</span>
+    			<span class="r-p-song-img">
+    				<img src="static\86f11ceb1dc2f144989e022c124505d8.800x800x1.png">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Seedha Makeover</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">06</span>
+    			<span class="r-p-song-img">
+    				<img src="static\fc6c0382ca6d83df0a139b6dd2d47b26.640x640x1.jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Maharaani</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">07</span>
+    			<span class="r-p-song-img">
+    				<img src="static\hq720.jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Damn</div>
+    				<div class="r-p-singer-name">Raftaar/Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">08</span>
+    			<span class="r-p-song-img">
+    				<img src="static\ab67616d0000b273aa0a7766d6446ddba974effc.jpeg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Saath Ya Khilaaf</div>
+    				<div class="r-p-singer-name">Raftaar/Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">09</span>
+    			<span class="r-p-song-img">
+    				<img src="static\download.jpeg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Untitled</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">10</span>
+    			<span class="r-p-song-img">
+    				<img src="static\b389bbf0b3a9f2915418880bed0f786b.640x640x1.jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Dum Hai</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+				</div>
+				<div class="r-p-song-box">
+    				<span class="r-p-song-no">11</span>
+    			<span class="r-p-song-img">
+    				<img src="static\maxresdefault.jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Say My Name</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">12</span>
+    			<span class="r-p-song-img">
+    				<img src="static\maxresdefault (1).jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Woofer</div>
+    				<div class="r-p-singer-name">Deep Kalsi/Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">13</span>
+    			<span class="r-p-song-img">
+    				<img src="static\download (1).jpeg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Kar Diya</div>
+    				<div class="r-p-singer-name">Fotty Seven</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">14</span>
+    			<span class="r-p-song-img">
+    				<img src="static\maxresdefault (2).jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Kar Lenge Bhai</div>
+    				<div class="r-p-singer-name">Fotty Seven/Raftaar/Karma</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">15</span>
+    			<span class="r-p-song-img">
+    				<img src="static\86f11ceb1dc2f144989e022c124505d8.800x800x1.png">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Seedha Makeover</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">16</span>
+    			<span class="r-p-song-img">
+    				<img src="static\fc6c0382ca6d83df0a139b6dd2d47b26.640x640x1.jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Maharaani</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">17</span>
+    			<span class="r-p-song-img">
+    				<img src="static\hq720.jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Damn</div>
+    				<div class="r-p-singer-name">Raftaar/Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">18</span>
+    			<span class="r-p-song-img">
+    				<img src="static\ab67616d0000b273aa0a7766d6446ddba974effc.jpeg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Saath Ya Khilaaf</div>
+    				<div class="r-p-singer-name">Raftaar/Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">19</span>
+    			<span class="r-p-song-img">
+    				<img src="static\download.jpeg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Untitled</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+    			</div>
+    			<div class="r-p-song-box">
+    				<span class="r-p-song-no">20</span>
+    			<span class="r-p-song-img">
+    				<img src="static\b389bbf0b3a9f2915418880bed0f786b.640x640x1.jpg">
+    			</span>
+    			<span class="r-p-song-bio">
+    				<div class="r-p-song-name">Dum Hai</div>
+    				<div class="r-p-singer-name">Kr$na</div>
+    			</span>
+    			<span class="r-p-like-icon"><i class="fa-regular fa-heart"></i></span>
+				</div>
+			</section>
+		</section>
+	</main>
+	<footer id="foot">
+		<span class="footer-img">
+			<img src="static\page\page-latest\International-Villager-Punjabi-2011-20220722144441-500x500.jpg">
+		</span>
+		<span class="footer-bio">
+			<div class="footer-song-name">Brown Rang</div>
+			<div class="footer-singer-name">Yo Yo Honey Singh</div>
+		</span>
+		<span class="footer-icons">
+			<span class="footer-like-icon"><i class="fa-regular fa-heart"></i></span>
+			<span class="footer-remove-icon"><i class="fa-sharp fa-solid fa-circle-minus"></i></span>
+		</span>
+		<span class="footer-main">
+			<div class="footer-main-btns">
+				<span class="shuffle"><i class="fa-solid fa-shuffle"></i></span>
+				<span class="last-song"><i class="fa-sharp fa-solid fa-backward-step"></i></span>
+				<span class="play"><i class="fa-sharp fa-solid fa-circle-play"></i></span>
+				<span class="next-song"><i class="fa-sharp fa-solid fa-forward-step"></i></span>
+				<span class="loop"><i class="fa-solid fa-repeat"></i></span>
+			</div>
+			<div class="footer-main-player">
+				<span class="time-stamps">1:18</span>
+				<input type="range" min="0:00" max="4:20" class="slider">
+				<span class="time-stamps">4:45</span>
+			</div>
+		</span>
+		<span class="footer-aside">
+			<span class="lyrics"><i class="fa-solid fa-music"></i></span>
+			<span class="Queue-icon"><i class="fa-solid fa-bars"></i></span>
+			<span class="friends"><i class="fa-solid fa-people-group"></i></span>
+			<span class="volume">
+				<span class="volume-icon"><i class="fa-solid fa-volume-low"></i></span>
+				<input type="range" min="0:00" max="4:20" class="slider-2">
+			</span>
+			<a class="full-screen" href="song.html"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+		</span>
+	</footer>
+</body>
+</html>
